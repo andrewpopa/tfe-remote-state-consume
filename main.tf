@@ -14,6 +14,7 @@ data "terraform_remote_state" "server-name" {
 
   config = {
     name = "popa-org/server-name"
+    access_token = "your-toke-place"
   }
 }
 
